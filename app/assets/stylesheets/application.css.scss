@@ -86,10 +86,8 @@ input[type="submit"]{
   background: white;
   padding: 2em 5%;
   border-radius: .5em;
+  margin-bottom: 1em;
   .post {
-    margin: 1em 0;
-    padding: 1em 0;
-    border-bottom: 1px solid #D1d1d1;
     .title {
       margin: 0;
       a {
@@ -186,11 +184,13 @@ input[type="submit"]{
   }
 }
 #post_form{
+  display: inline-block;
   input{
     width: 300px;
     border: 1px solid #397CAC;
     border-radius: 0.2em;
     float: left;
+    margin-left: 10px;
   }
   label {
     float: left;
@@ -201,6 +201,7 @@ input[type="submit"]{
     border: 1px solid #397CAC;
     border-radius: .2em;
     float: left;
+
   }
   input[type="submit"] {
     background: #397CAC;
